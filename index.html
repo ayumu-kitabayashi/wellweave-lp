@@ -8,11 +8,11 @@
 <meta property="og:title" content="WellWeave — GLP-1治療の記録アプリ">
 <meta property="og:description" content="日本の基準で、治療を記録する。診察の5分に、そのまま持っていける。">
 <meta property="og:type" content="website">
-<!-- ★og:url と canonical は**置き場が決まってから**入れる。
-     wellweave.app は取っていない（.com は他社）。存在しないURLを canonical に
-     書くと、検索側にそちらを正とされて、実際のページが評価されない。
-     og:image も、絶対URLにするのは置き場が決まってから -->
-<meta property="og:image" content="img/og.png">
+<!-- ★置き場が決まったので入れた（2026-09-01・GitHub Pages）。
+     独自ドメインに移すときは、ここと scripts/lp-jsonld.py の SITE を一緒に直す -->
+<meta property="og:url" content="https://ayumu-kitabayashi.github.io/wellweave-lp/">
+<link rel="canonical" href="https://ayumu-kitabayashi.github.io/wellweave-lp/">
+<meta property="og:image" content="https://ayumu-kitabayashi.github.io/wellweave-lp/img/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:site_name" content="WellWeave">
@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="WellWeave — GLP-1治療の記録アプリ">
 <meta name="twitter:description" content="日本の基準で、治療を記録する。診察の5分に、そのまま持っていける。">
-<meta name="twitter:image" content="img/og.png">
+<meta name="twitter:image" content="https://ayumu-kitabayashi.github.io/wellweave-lp/img/og.png">
 <meta name="theme-color" content="#FFFFFF">
 <!-- ★英語版（web/en/）は出来ているが**まだ出さない**。国を指定しないストアURLは
      日本以外で404なので、配信地域を開くまでは死んだリンクになる。
@@ -285,6 +285,7 @@
       "alternateName": "WellWeave: GLP-1治療の記録",
       "applicationCategory": "MedicalApplication",
       "operatingSystem": "iOS",
+      "url": "https://ayumu-kitabayashi.github.io/wellweave-lp/",
       "installUrl": "https://apps.apple.com/jp/app/id6806494098",
       "inLanguage": "ja",
       "offers": {
